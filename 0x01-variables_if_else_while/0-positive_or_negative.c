@@ -22,7 +22,7 @@ printf("%d is positive\n", n);
 }
 if (n == 0)
 {
-printf("%d is zeron/n", n);
+printf("%d is zero\n", n);
 }
 if (n < 0)
 {
