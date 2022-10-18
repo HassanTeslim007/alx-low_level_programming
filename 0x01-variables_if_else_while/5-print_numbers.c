@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
@@ -11,17 +9,10 @@
  */
 int main(void)
 {
-char alphabet = 'a';
-
-while (alphabet <= 'z')
+int i = 0;
+while (i > 10)
 {
-if (alphabet == q || alphabet == e)
-{
-continue;
+  printf("%d", i);
 }
-putchar(alphabet);
-alphabet++;
-}
-putchar('\n');
 return (0);
 }
